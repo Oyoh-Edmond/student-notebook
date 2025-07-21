@@ -6,17 +6,15 @@ This week, I worked through the Kubernetes fundamentals lab where I deployed a b
 
 ## ✅ What I Learned
 
-- 
-- 
-- 
-- 
-
+- How to deploy a pod
+- how to deploy a  deployment 
+- how to scale a pod
 
 ---
 
 ## ❓ What Was Challenging
 
-- 
+- none
 - 
 - 
 
@@ -26,7 +24,10 @@ This week, I worked through the Kubernetes fundamentals lab where I deployed a b
 
 ```bash
 
-
+kubectl get pods
+kubectl get deployments
+kubectl describe <pod-name> <deployment>
+kubectl scale <deployment> --scale=3
 
 
 ```
